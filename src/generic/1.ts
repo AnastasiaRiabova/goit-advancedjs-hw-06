@@ -4,13 +4,13 @@
 */
 
 function getPromise (): Promise<[string , number]> {
-  return new Promise((resolve) => {
+  return new Promise((resolve):void => {
     resolve(['Text', 50]);
   });
 }
 
 getPromise()
-.then((data) => {
+.then((data):void => {
   console.log(data);
 });
 

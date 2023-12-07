@@ -4,7 +4,7 @@
 
 type Status = 'open' | 'close'
 
-type Page1Type = {
+type PageType = {
   title: string;
   likes: number;
   accounts: string[];
@@ -17,7 +17,7 @@ type Page1Type = {
 
 
 
-const page1: Page1Type = {
+const page1: PageType = {
   title: 'The awesome page',
   likes: 100,
   accounts: ['Max', 'Anton', 'Nikita'],
@@ -28,7 +28,7 @@ const page1: Page1Type = {
   }
 }
 
-const page2 :Page1Type = {
+const page2 :PageType = {
   title: 'Python or Js',
   likes: 5,
   accounts: ['Alex'],
